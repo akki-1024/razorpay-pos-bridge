@@ -484,17 +484,4 @@ Package tests: `npm test`.
 
 ---
 
-## Publishing this package
-
-```bash
-npm install
-npm test
-npm run build
-npm pack --dry-run    # check the file list
-npm login
-npm publish
-```
-
-npm never allows a version number to be reused, even after unpublishing. If you change anything, bump `version` in `package.json` first. Update the author, license holder and repository URL in `package.json` / `LICENSE` before publishing.
-
 License: MIT.
